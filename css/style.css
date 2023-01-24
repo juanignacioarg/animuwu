@@ -1,13 +1,98 @@
-nav {
-    height: 150px;
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+    
+} 
+
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    margin-left: 30px;
 }
 
-.logoanimuwu{
-    width: 150px;
-}
 
-.nav-item {
-    color: white;
+footer{
+    background-color: #222222;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    
+    
     
 }
-       
+
+
+.iconf{
+    text-decoration: none;
+    text-decoration-style: none;
+    text-transform: none;
+    width: 30px;
+    font-size: 30px;
+    margin: 15px;
+    color: #3b5998;
+}
+.iconi{
+    text-decoration: none;
+    text-decoration-style: none;
+    text-transform: none;
+    width: 30px;
+    font-size: 30px;
+    margin: 15px;
+    color: #833AB4
+    ;
+}
+
+.icont{
+    text-decoration: none;
+    text-decoration-style: none;
+    text-transform: none;
+    width: 30px;
+    font-size: 30px;
+    margin: 15px;
+    color: #00acee;
+}
+
+.card-title{
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.card-text{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 350px;
+    
+    
+}
+
+.card-img{
+    max-height: 39rem;
+    border-radius: 220px;
+
+}
+
+.card{
+    border: 0;
+    
+}
+
+#cardpikachu{
+    display: flex;
+    justify-content: center;
+    border-radius: 200px;
+}
+
+.kawaki{
+    margin: 50px;
+
+}
+
