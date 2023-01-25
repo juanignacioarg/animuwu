@@ -139,3 +139,23 @@ footer{
     height: 125px;
     margin-top: 250px;
 }
+
+.h5noticias{
+    font-size: 25px;
+    padding: 0;
+}
+
+.card-img-top{
+    margin: 20px;
+    padding: 0px
+}
+
+.card-body p{
+    padding: 2px;
+}
+
+.pnoticias{
+    font-weight: 300;
+}
+
+
