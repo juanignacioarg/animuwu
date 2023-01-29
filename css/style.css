@@ -3,14 +3,40 @@ body{
     overflow: scroll;
     overflow-x: hidden;
     background-color: rgb(255, 255, 255);
-    
 } 
 
 #menu a{
     font-size: 18px;
     font-weight: bold;
     color: #222222;
-    margin-left: 30px;
+    padding: 5px 20px;
+}
+
+#menu a:hover{
+    color: rgb(255, 76, 5);
+    transition: .3s;
+}
+
+ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+ul li a:hover::before {
+    transform: scale(1.1);
+}
+
+ul li a:hover {
+    color: #ffee10;
 }
 
 
@@ -23,9 +49,6 @@ footer{
     bottom: 0;
     width: 100%;
     height: 120px;
-    
-    
-    
 }
 
 
@@ -46,7 +69,6 @@ footer{
     font-size: 30px;
     margin: 15px;
     color: #833AB4
-    ;
 }
 
 .icont{
@@ -71,19 +93,15 @@ footer{
     font-weight: 600;
     font-size: 18px;
     padding-top: 350px;
-    
-    
 }
 
 .card-img{
     max-height: 39rem;
     border-radius: 220px;
-
 }
 
 .card{
     border: 0;
-    
 }
 
 #cardpikachu{
@@ -92,7 +110,6 @@ footer{
 
 .kawaki{
     margin: 50px;
-
 }
 
 .copy{
@@ -156,6 +173,22 @@ footer{
 
 .pnoticias{
     font-weight: 300;
+}
+
+.comment{
+    background-color:rgb(202, 202, 202);
+    border-radius: 12px;
+    margin-top: 70px;
+}
+
+.form-label{
+    font-style: italic;
+    font-weight: 550;
+}
+
+.botonenviar{
+    background-color: rgb(255, 76, 5);
+    border: 0;
 }
 
 
