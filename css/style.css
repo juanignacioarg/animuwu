@@ -6,6 +6,8 @@ body{
 } 
 
 /* HEADER */
+
+
 #menu a{
     font-size: 18px;
     font-weight: bold;
@@ -18,24 +20,6 @@ body{
     transition: .3s;
 }
 
-ul li a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;   
-    background: #ffee10;
-    transition: .5s;
-    transform: scale(.9);
-    z-index: -1;
-}
-
-ul li a:hover::before {
-    transform: scale(1.1);
-}
-
 ul li a:hover {
     color: #ffee10;
 }
@@ -44,14 +28,11 @@ ul li a:hover {
 footer{
     background-color: #222222;
     padding: 1em 0;
-    
-    justify-content: center;
     text-align: center;
     bottom: 0;
     width: 100%;
     height: 120px;
 }
-
 
 .iconf{
     text-decoration: none;
@@ -61,7 +42,15 @@ footer{
     font-size: 30px;
     margin: 15px;
     color: #3b5998;
+    transition: all 2s;
+    -webkit-transition: all 2s;
 }
+
+.iconf:hover{ transform:rotate(360deg);
+        -webkit-transform:rotate(360deg); 
+        -o-transform:rotate(360deg); 	
+}
+
 .iconi{
     text-decoration: none;
     text-decoration-style: none;
@@ -69,7 +58,15 @@ footer{
     width: 30px;
     font-size: 30px;
     margin: 15px;
-    color: #833AB4
+    color: #833AB4;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    
+}
+
+.iconi:hover{ transform:rotate(360deg);
+    -webkit-transform:rotate(360deg); 
+    -o-transform:rotate(360deg); 	
 }
 
 .icont{
@@ -80,6 +77,13 @@ footer{
     font-size: 30px;
     margin: 15px;
     color: #00acee;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+}
+
+.icont:hover{ transform:rotate(360deg);
+    -webkit-transform:rotate(360deg); 
+    -o-transform:rotate(360deg); 
 }
 
 /* CARDS */
@@ -131,7 +135,7 @@ footer{
 }
 
 .minato{
-    width: 50%;
+    width: 30%;
     
 }
 
@@ -196,8 +200,7 @@ footer{
         width: 80%;
     }
     
-    .container2{
-        flex-direction: column;
+    .container2{    
         align-items: center !important;
     }
 
@@ -215,11 +218,18 @@ footer{
 
 
 }
+@media (max-width: 599px){
+    .imgno1{ 
+        display: none;
+    }
+
+}
 
 .comment{
     background-color:rgb(202, 202, 202);
     border-radius: 12px;
     margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 .form-label{
@@ -250,14 +260,36 @@ footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    justify-items: center;
     align-items: center;
+    justify-items: center;
     justify-content: center;
     align-content: center;
-
     margin: 50px 0 60px 0;
 }
 
 .container3 img{
     width: 70%;
+}
+
+/* IMAGENES FIJADAS */
+
+.itachifijo{
+    width: 16%;
+    position: fixed;
+}
+
+.n1fijo{
+    width: 18%;
+    position:fixed
+}
+
+.chopper{
+    width: 15%;
+    position: fixed;
+    margin-top: 40px;
+}
+
+.titan{
+    position: fixed;
+    width: 20%;
 }
