@@ -216,14 +216,16 @@ footer{
         display: none;
     }
 
-
-}
-@media (max-width: 599px){
-    .imgno1{ 
+    .imgno1{
         display: none;
     }
 
+    .legions{
+        display: block !important;
+        
+    }
 }
+
 
 .comment{
     background-color:rgb(202, 202, 202);
@@ -259,16 +261,18 @@ footer{
 .container3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-    margin: 50px 0 60px 0;
+    grid-gap: 10px;    
+    justify-items: center;    
+    margin: 50px 0 0 0;
 }
 
 .container3 img{
     width: 70%;
+}
+
+.legions{
+    display: none;
+    
 }
 
 /* IMAGENES FIJADAS */
@@ -292,6 +296,8 @@ footer{
 .titan{
     position: fixed;
     width: 20%;
+    padding-bottom: 500px;
 }
+
 
 /* -- */
