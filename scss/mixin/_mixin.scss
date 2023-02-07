@@ -1,0 +1,12 @@
+@mixin flexible($dis,$direction,$just){
+	display: $dis;
+	flex-wrap: $direction;
+	justify-content: $just;
+}
+
+@mixin grid($dis,$colums,$gap,$just){
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+}

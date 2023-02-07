@@ -1,6 +1,7 @@
 @import "../scss/normalize/reset";
 @import "../scss/variables/colors";
-$font: 'Raleway', sans-serif;
+@import "../scss/mixin/mixin";
+@import "../scss/variables/fonts";
 
 
 body {
@@ -173,20 +174,16 @@ footer {
 	font-style: italic;
 	font-weight: 550;
 }
+
 .container2 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+	@include flexible(flex, wrap, space-evenly);
 	margin: 50px 0 60px 0;
 	img {
 		width: 300px;
 	}
 }
 .container3 {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
-	justify-items: center;
+	@include grid(grid,repeat(3,1fr), 10px, center);
 	margin: 50px 0 0 0;
 	img {
 		width: 70%;
