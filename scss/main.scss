@@ -1,0 +1,244 @@
+@import "../scss/normalize/reset";
+@import "../scss/variables/colors";
+$font: 'Raleway', sans-serif;
+
+
+body {
+	font-family: $font;
+	overflow: scroll;
+	overflow-x: hidden;
+	background-color: $color-white;
+}
+#menu {
+	a {
+		font-size: 18px;
+		font-weight: bold;
+		color: $color-gray;
+		padding: 5px 20px;
+		&:hover {
+			color: $color-orange;
+			transition: .3s;
+		}
+	}
+}
+
+footer {
+	background-color: $color-gray;
+	padding: 1em 0;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+}
+.iconf {
+	text-decoration: none;
+	text-decoration-style: none;
+	text-transform: none;
+	width: 30px;
+	font-size: 30px;
+	margin: 15px;
+	color: $color-facebook;
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	&:hover {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+	}
+}
+.iconi {
+	text-decoration: none;
+	text-decoration-style: none;
+	text-transform: none;
+	width: 30px;
+	font-size: 30px;
+	margin: 15px;
+	color: $color-instagram;
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	&:hover {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+	}
+}
+.icont {
+	text-decoration: none;
+	text-decoration-style: none;
+	text-transform: none;
+	width: 30px;
+	font-size: 30px;
+	margin: 15px;
+	color: $color-twitter;
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	&:hover {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+	}
+}
+.card-title {
+	color: $color-black;
+	font-weight: 600;
+	font-size: 50px;
+	padding-top: 30px;
+}
+.card-text {
+	color: $color-black;
+	font-weight: 600;
+	font-size: 18px;
+	padding-top: 350px;
+}
+.card-img {
+	max-height: 39rem;
+	border-radius: 220px;
+}
+.card {
+	border: 0;
+}
+#cardpikachu {
+	border-radius: 200px;
+}
+.kawaki {
+	margin: 50px;
+}
+.copy {
+	color: $color-white;
+	display: block;
+	font-weight: 500;
+}
+.hinata {
+	width: 30%;
+}
+.logonaruto {
+	width: 250px;
+	height: 125px;
+	margin-top: 50px;
+}
+.minato {
+	width: 30%;
+}
+.description {
+	font-weight: 600;
+	text-align: center;
+}
+.botonenviar {
+	margin-bottom: 15px;
+	background-color: $color-orange;
+	border: 0;
+}
+.mikasa {
+	width: 35%;
+}
+.eren {
+	width: 35%;
+}
+.brook {
+	width: 20%;
+}
+.luffy {
+	width: 20%;
+}
+.onepiece {
+	width: 250px;
+	height: 125px;
+	margin-top: 250px;
+}
+.h5noticias {
+	font-size: 25px;
+	padding: 0;
+}
+.card-img-top {
+	margin: 20px;
+	padding: 0px;
+}
+.card-body {
+	p {
+		padding: 2px;
+	}
+}
+.pnoticias {
+	font-weight: 300;
+}
+.comment {
+	background-color: $color-cream;
+	border-radius: 12px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+.form-label {
+	font-style: italic;
+	font-weight: 550;
+}
+.container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 50px 0 60px 0;
+	img {
+		width: 300px;
+	}
+}
+.container3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	justify-items: center;
+	margin: 50px 0 0 0;
+	img {
+		width: 70%;
+	}
+}
+.legions {
+	display: none;
+}
+.kurama {
+	width: 18%;
+	position: fixed;
+}
+.chopper {
+	width: 15%;
+	position: fixed;
+	margin-top: 40px;
+}
+.titan {
+	position: fixed;
+	width: 20%;
+	padding-bottom: 500px;
+}
+@media (max-width: 767px) {
+	.container {
+		.card-body {
+			.h5noticias {
+				font-size: 20px;
+			}
+		}
+	}
+	.noticiascontainer {
+		flex-direction: column;
+		align-items: center !important;
+	}
+	.card-img-top {
+		width: 80%;
+	}
+	.container2 {
+		align-items: center !important;
+	}
+	.container3 {
+		grid-template-columns: 1fr !important;
+		img {
+			width: 20%;
+			height: 70%;
+		}
+	}
+	.imgno {
+		display: none;
+	}
+	.imgno1 {
+		display: none;
+	}
+	.legions {
+		display: block !important;
+	}
+}
