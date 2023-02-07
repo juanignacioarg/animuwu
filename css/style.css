@@ -1,219 +1,285 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-  font-family: "Raleway", sans-serif;
-  overflow: scroll;
-  overflow-x: hidden;
-  background-color: white; }
+    font-family: "Raleway", sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: white;
+}
 
 #menu a {
-  font-size: 18px;
-  font-weight: bold;
-  color: #222222;
-  padding: 5px 20px; }
-  #menu a:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    padding: 5px 20px;
+}
+
+#menu a:hover {
     color: #ff4c05;
-    transition: .3s; }
+    transition: .3s;
+}
 
 footer {
-  background-color: #222222;
-  padding: 1em 0;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 100%; }
+    background-color: #222222;
+    padding: 1em 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
 
 .iconf {
-  text-decoration: none;
-  text-decoration-style: none;
-  text-transform: none;
-  width: 30px;
-  font-size: 30px;
-  margin: 15px;
-  color: #3b5998;
-  transition: all 2s;
-  -webkit-transition: all 2s; }
-  .iconf:hover {
+    text-decoration: none;
+    text-decoration-style: none;
+    text-transform: none;
+    width: 30px;
+    font-size: 30px;
+    margin: 15px;
+    color: #3b5998;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+}
+
+.iconf:hover {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg); }
+    -o-transform: rotate(360deg);
+}
 
 .iconi {
-  text-decoration: none;
-  text-decoration-style: none;
-  text-transform: none;
-  width: 30px;
-  font-size: 30px;
-  margin: 15px;
-  color: #833AB4;
-  transition: all 2s;
-  -webkit-transition: all 2s; }
-  .iconi:hover {
+    text-decoration: none;
+    text-decoration-style: none;
+    text-transform: none;
+    width: 30px;
+    font-size: 30px;
+    margin: 15px;
+    color: #833AB4;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+}
+
+.iconi:hover {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg); }
+    -o-transform: rotate(360deg);
+}
 
 .icont {
-  text-decoration: none;
-  text-decoration-style: none;
-  text-transform: none;
-  width: 30px;
-  font-size: 30px;
-  margin: 15px;
-  color: #00acee;
-  transition: all 2s;
-  -webkit-transition: all 2s; }
-  .icont:hover {
+    text-decoration: none;
+    text-decoration-style: none;
+    text-transform: none;
+    width: 30px;
+    font-size: 30px;
+    margin: 15px;
+    color: #00acee;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+}
+
+.icont:hover {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg); }
+    -o-transform: rotate(360deg);
+}
 
 .card-title {
-  color: black;
-  font-weight: 600;
-  font-size: 50px;
-  padding-top: 30px; }
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 30px;
+}
 
 .card-text {
-  color: black;
-  font-weight: 600;
-  font-size: 18px;
-  padding-top: 350px; }
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 350px;
+}
 
 .card-img {
-  max-height: 39rem;
-  border-radius: 220px; }
+    max-height: 39rem;
+    border-radius: 220px;
+}
 
 .card {
-  border: 0; }
+    border: 0;
+}
 
 #cardpikachu {
-  border-radius: 200px; }
+    border-radius: 200px;
+}
 
 .kawaki {
-  margin: 50px; }
+    margin: 50px;
+}
 
 .copy {
-  color: white;
-  display: block;
-  font-weight: 500; }
+    color: white;
+    display: block;
+    font-weight: 500;
+}
 
 .hinata {
-  width: 30%; }
+    width: 30%;
+}
 
 .logonaruto {
-  width: 250px;
-  height: 125px;
-  margin-top: 50px; }
+    width: 250px;
+    height: 125px;
+    margin-top: 50px;
+}
 
 .minato {
-  width: 30%; }
+    width: 30%;
+}
 
 .description {
-  font-weight: 600;
-  text-align: center; }
+    font-weight: 600;
+    text-align: center;
+}
 
 .botonenviar {
-  margin-bottom: 15px;
-  background-color: #ff4c05;
-  border: 0; }
+    margin-bottom: 15px;
+    background-color: #ff4c05;
+    border: 0;
+}
 
 .mikasa {
-  width: 35%; }
+    width: 35%;
+}
 
 .eren {
-  width: 35%; }
+    width: 35%;
+}
 
 .brook {
-  width: 20%; }
+    width: 20%;
+}
 
 .luffy {
-  width: 20%; }
+    width: 20%;
+}
 
 .onepiece {
-  width: 250px;
-  height: 125px;
-  margin-top: 250px; }
+    width: 250px;
+    height: 125px;
+    margin-top: 250px;
+}
 
 .h5noticias {
-  font-size: 25px;
-  padding: 0; }
+    font-size: 25px;
+    padding: 0;
+}
 
 .card-img-top {
-  margin: 20px;
-  padding: 0px; }
+    margin: 20px;
+    padding: 0px;
+}
 
 .card-body p {
-  padding: 2px; }
+    padding: 2px;
+}
 
 .pnoticias {
-  font-weight: 300; }
+    font-weight: 300;
+}
 
 .comment {
-  background-color: #cacaca;
-  border-radius: 12px;
-  margin-top: 70px;
-  margin-bottom: 30px; }
+    background-color: #cacaca;
+    border-radius: 12px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
 
 .form-label {
-  font-style: italic;
-  font-weight: 550; }
+    font-style: italic;
+    font-weight: 550;
+}
 
 .container2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 50px 0 60px 0; }
-  .container2 img {
-    width: 300px; }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0 60px 0;
+}
+
+.container2 img {
+    width: 300px;
+}
 
 .container3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  justify-items: center;
-  margin: 50px 0 0 0; }
-  .container3 img {
-    width: 70%; }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    margin: 50px 0 0 0;
+}
+
+.container3 img {
+    width: 70%;
+}
 
 .legions {
-  display: none; }
+    display: none;
+}
 
 .kurama {
-  width: 18%;
-  position: fixed; }
+    width: 18%;
+    position: fixed;
+}
 
 .chopper {
-  width: 15%;
-  position: fixed;
-  margin-top: 40px; }
+    width: 15%;
+    position: fixed;
+    margin-top: 40px;
+}
 
 .titan {
-  position: fixed;
-  width: 20%;
-  padding-bottom: 500px; }
+    position: fixed;
+    width: 20%;
+    padding-bottom: 500px;
+}
 
 @media (max-width: 767px) {
-  .container .card-body .h5noticias {
-    font-size: 20px; }
-  .noticiascontainer {
-    flex-direction: column;
-    align-items: center !important; }
-  .card-img-top {
-    width: 80%; }
-  .container2 {
-    align-items: center !important; }
-  .container3 {
-    grid-template-columns: 1fr !important; }
+    .container .card-body .h5noticias {
+        font-size: 20px;
+    }
+
+    .noticiascontainer {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .card-img-top {
+        width: 80%;
+    }
+
+    .container2 {
+        align-items: center !important;
+    }
+
+    .container3 {
+        grid-template-columns: 1fr !important;
+    }
+
     .container3 img {
-      width: 20%;
-      height: 70%; }
-  .imgno {
-    display: none; }
-  .imgno1 {
-    display: none; }
-  .legions {
-    display: block !important; } }
+        width: 20%;
+        height: 70%;
+    }
+
+    .imgno {
+        display: none;
+    }
+
+    .imgno1 {
+        display: none;
+    }
+
+    .legions {
+        display: block !important;
+    }
+}
